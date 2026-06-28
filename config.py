@@ -19,7 +19,7 @@
 # # Default Settings
 # db_abs_path = os.path.abspath(DB_PATH).replace("\\", "/")
 # DEFAULT_SETTINGS = {
-#     "gemini_api_key": "AQ.Ab8RN6J_zI5KE4wCC8jEEsAS7Zt4hXy7EwQv31pfoZ5PdD9bIQ",
+#     "gemini_api_key": "",
 #     "database_url": f"sqlite:///{db_abs_path}",
 #     "export_dir": str(EXPORT_DIR)
 # }
