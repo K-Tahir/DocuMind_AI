@@ -1,0 +1,53 @@
+# customtkinter
+# langchain
+# langchain-google-genai
+# langchain-community
+# langchain-core
+# pymupdf
+# chromadb
+# pandas
+# openpyxl
+# langgraph
+# pydantic
+# sqlalchemy
+# python-docx
+# pillow
+
+# ── Core UI ───────────────────────────────────────────────────────────────
+customtkinter
+
+# ── LangChain Ecosystem ───────────────────────────────────────────────────
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# ── AI Providers ──────────────────────────────────────────────────────────
+langchain-google-genai          # Gemini (chat + embeddings)
+langchain-openai                # OpenAI (chat + embeddings)
+langchain-anthropic             # Claude (chat)
+
+# ── Vector Store ──────────────────────────────────────────────────────────
+langchain-chroma                # Updated Chroma integration (replaces community import)
+chromadb
+
+# ── Agent Orchestration ───────────────────────────────────────────────────
+langgraph
+
+# ── Document Parsing ──────────────────────────────────────────────────────
+pymupdf                         # PDF parsing (fitz)
+python-docx                     # Word document parsing
+
+# ── Data & Database ───────────────────────────────────────────────────────
+pandas
+openpyxl                        # Excel read/write
+sqlalchemy
+
+# ── Encryption ────────────────────────────────────────────────────────────
+cryptography                    # Fernet AES-128 key encryption
+
+# ── Validation ────────────────────────────────────────────────────────────
+pydantic
+
+# ── Misc ──────────────────────────────────────────────────────────────────
+pillow                          # Image processing (icon handling)
